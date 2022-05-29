@@ -1,0 +1,71 @@
+.conteiner {
+    background: rgb(9, 86, 109);
+    border: 5px solid #fff;
+    display: grid;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.body {
+    margin: 25px;
+    text-align: center;
+    background: #000;
+}
+
+.h1 {
+    color: #26ab26;
+}
+
+.virtual-key .row {
+    text-align: center;
+    margin: 0 0 15px;
+}
+
+.virtual-key .row .row-espaço input {
+    padding: 10px 150px;
+}
+
+.virtual-key input[type='button'] {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid #202c20;
+    background: blueviolet;
+    color: #fff;
+    text-transform: lowercase;
+}
+
+.virtual-key input[type='button'] .shift-activated {
+    background: red;
+}
+
+.virtual-key input[type='button'] .delete,
+.virtual-key input[type='button'].shift-activated {
+    text-transform: none;
+}
+
+.teclado {
+    margin: 15px;
+}
+
+.teclado input {
+    color: white;
+    background: rgb(0, 0, 0);
+    border: 0px;
+    line-height: 2.2rem;
+    text-align: center;
+    font-size: 2.rem;
+    width: 100%;
+}
+
+.teclado input:focus {
+    outline: none;
+    border: 0px;
+}
+
+.teclado input::-webkit-input-placeholder {
+    background: #fff;
+    color: red;
+    text-align: center;
+    font-size: 1.rem;
+    height: 50px;
+}
